@@ -9,4 +9,4 @@ Based on Arduino Uno R3 / ATmega328P and 1602 LCD
  - Implemented 4 multifunctional buttons for parameters control, start/stop
  - Implemented mode control, flow control, heater power control and fault detection algorithms
 
-<img align="left" width="540" height="100%" src="https://pbs.twimg.com/media/DoNKcfyXgAAnNjj.jpg:large">
+<img align="left" width="800" height="100%" src="https://pbs.twimg.com/media/DoNKcfyXgAAnNjj.jpg:large">
