@@ -1,12 +1,18 @@
-﻿# Hot-Air-Sterilizer
+﻿# High precision PID controller
 
-**Arduino based Hot Air Sterilizer / Thermostat / Reflow owen (C++)**
+**Arduino based high precision PID controller (C++)**
 
 Based on Arduino Uno R3 / ATmega328P and 1602 LCD
  - Used PT100 RTD high accuracy resistance thermometer 
- - Used MAX31865 RTD-to-Digital Converter microcontroller 
+ - Used MAX31865 Analog-to-Digital converter (SPI interface)
  - Used 2 relays for heater and ventilator
  - Implemented 4 multifunctional buttons for parameters control, start/stop
- - Implemented mode control, flow control, heater power control and fault detection algorithms
+ - Implemented mode/flow/power control and fault detection algorithms
 
-<img align="left" width="800" height="100%" src="https://pbs.twimg.com/media/DoNKcfyXgAAnNjj.jpg:large">
+The schematic of the PID controller
+<img align="left" width="100%" height="100%" src="screenshots/schematic.jpg">
+
+<br/>
+
+Hardware implemetation of the PID controller
+<img align="left" width="100%" height="100%" src="screenshots/PID_Controller.jpg">
